@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kalkulator Sederhana</title>
+	<link rel="stylesheet" type="text/css" href="kalkulator.css">
+	<script type="text/javascript">
+		function operasi(operator){
+			var a = parseInt(document.getElementById("a").value);
+			var b = parseInt(document.getElementById("b").value);
+
+			if(!a && !b){
+				alert("Angka 1 & Angka 2 Kosong");
+			}
+			else if(!b){
+				alert("Angka 2 Kosong");
+			}
+			else if(!a){
+				alert("Angka 1 Kosong");
+			}
+
+			switch(operator){
+				case 1:
+					var c = a+b;
+					document.getElementById("hasil").value = c;
+				break;
+				case 2:
+					var c = a-b;
+					document.getElementById("hasil").value = c;
+				break;
+				case 3:
+					var c = a*b;
+					document.getElementById("hasil").value = c;
+				break;
+				case 4:
+					var c = a/b;
+					document.getElementById("hasil").value = c;
+				break
+			}
+		}
+	</script>
+</head>
+<body>
+	<h2>Kalkulator Sederhana</h2><br>
+	<form align="center">
+		<table cellpadding="20" align="center">
+			<tr>
+				<td><b>Angka 1</b></td>
+				<td>:</td>
+				<td><input type="text" id="a" name="a"></td>
+			</tr>
+			<tr>
+				<td><b>Angka 2</b></td>
+				<td>:</td>
+				<td><input type="text" id="b" name="b"></td>
+			</tr>
+			<tr>
+				<td><b>Hasil</b></td>
+				<td>:</td>
+				<td><input type="text" id="hasil" name="hasil"></td>
+			</tr>
+		</table>
+		<input type="reset" value="C">
+		<input type="button" value="+" onclick="operasi(1)">
+		<input type="button" value="-" onclick="operasi(2)">
+		<input type="button" value="*" onclick="operasi(3)">
+		<input type="button" value="/" onclick="operasi(4)">
+	</form>
+</body>
+</html>
