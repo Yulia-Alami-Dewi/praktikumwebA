@@ -1,0 +1,38 @@
+*{
+	background-color: #84a9ac;
+	font-family: century gothic;
+}
+h2{
+	text-align: center;
+	color: #faf4f4;
+}
+form{
+	text-align: center;
+}
+input[type=text]{
+	background-color: #faf4f4;
+  	color: black;
+  	border: 2px solid #204051;
+  	height: 40px;
+  	width: 218px;
+  	margin: 8px 0;
+  	font-size: 14px;
+}
+input[type=button]{
+	background-color: #faf4f4;
+  	border: 2px solid #204051;
+  	color: #204051;
+  	padding: 12px 28px;
+  	text-decoration: none;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	display: inline-block;
+  	font-size: 14px;
+}
+table{
+	border-color: #204051;
+	text-align: center;
+	color: #faf4f4;
+	background-color: #faf4f4;
+	font-weight: bold;
+}
