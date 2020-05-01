@@ -1,0 +1,21 @@
+* {
+	background-color: #ccd0e0;
+	font-family: century gothic;
+}
+table {
+	border-collapse: collapse;
+}
+th {
+  	background-color: #000e47;
+  	border: 1px solid #aaaaaa;
+  	text-align:left;
+  	color:#ffffff;
+  	padding: 10px;
+}	
+td {
+  	background-color:  	#cccccc;
+  	border: 1px solid #aaaaaa;
+  	padding: 10px;
+  	color: #091b45;
+}
+input,select { font-size: 10pt; }
