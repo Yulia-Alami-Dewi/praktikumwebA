@@ -1,0 +1,51 @@
+* {
+	background-color: #ccd0e0;
+	font-family: century gothic;
+}
+table {
+	border-collapse: collapse;
+}
+h2, h4 {
+	text-align: center;
+	color: #000e47;
+}
+th {
+  	background-color: #000e47;
+  	border: 1px solid #aaaaaa;
+  	text-align:left;
+  	color:#ffffff;
+  	padding: 10px;
+  	text-align: center;
+}	
+td {
+  	background-color:  	#cccccc;
+  	border: 1px solid #aaaaaa;
+  	padding: 10px;
+  	color: #091b45;
+}
+form select {
+	width: 20%;
+	height: 30px;
+	font-size: 14px;
+	margin-bottom: 1%;
+	cursor: pointer;
+	background-color: #cccccc;
+	color: #000e47;
+}
+form input[type=text]{
+	width: 20%;
+	height: 24px;
+	font-size: 14px;
+	margin-bottom: 1%;
+	background-color: white;
+}
+form button{
+	width: auto;
+	height: 30px;
+	font-size: 14px;
+	margin-bottom: 1%;
+	background-color: #000e47;
+	color:#ffffff;
+	border: 2px solid #aaaaaa;
+	cursor: pointer;
+}
